@@ -1,1 +1,13 @@
+# Essential Flask packages
 Flask==3.0.3
+Flask-Cors==5.0.0
+
+# Machine learning libraries used in your application
+sentence-transformers==3.1.1  # For sentence embeddings
+qdrant-client==1.11.3           # For interacting with Qdrant
+scikit-learn==1.5.2             # For cosine similarity calculations
+numpy==2.1.2                     # Required for numerical operations
+
+# Networking library
+requests==2.32.3                 # For making API requests (if needed)
+
